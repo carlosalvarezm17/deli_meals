@@ -28,6 +28,8 @@ class MyApp extends StatelessWidget {
         CategoryMealsScreen.routeName : (ctx)  => CategoryMealsScreen(),
         MealDetailScreen.routeName : (ctx) => MealDetailScreen(),
       },
+      //onGenerateRoute: (settings) {}, Cuando se envia a paginas que no existen en rutas
+      //onUnknownRoute: (settings) {}, Para evitar que no se caiga la app si no hay ruta
     );
   }
 }
