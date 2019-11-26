@@ -1,3 +1,4 @@
+import 'package:deli_meals/screens/filters_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:deli_meals/screens/category_meals_screen.dart';
@@ -26,8 +27,9 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/': (ctx) => TabsScreen(),
-        CategoryMealsScreen.routeName : (ctx)  => CategoryMealsScreen(),
-        MealDetailScreen.routeName : (ctx) => MealDetailScreen(),
+        CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
+        MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
+        FilterScreen.routeName: (ctx) => FilterScreen(),
       },
       //onGenerateRoute: (settings) {}, Cuando se envia a paginas que no existen en rutas
       //onUnknownRoute: (settings) {}, Para evitar que no se caiga la app si no hay ruta
