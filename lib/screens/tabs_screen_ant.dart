@@ -1,4 +1,4 @@
-import 'package:deli_meals/screens/categories_screen.dart';
+/*import 'package:deli_meals/screens/categories_screen.dart';
 import 'package:deli_meals/screens/favorites_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -38,3 +38,4 @@ class _TabsScreenState extends State<TabsScreen> {
     );
   }
 }
+*/
